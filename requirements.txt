@@ -1,0 +1,14 @@
+pyrogram==1.4.16
+tgcrypto
+requests
+pyromod
+ffmpeg
+mediainfo
+cloudscraper
+beautifulsoup4==4.9.3
+bs4==0.0.1
+yt-dlp
+pycryptodome==3.10.1
+psutil
+helper
+python-dotenv
