@@ -55,7 +55,7 @@ bc_url = (
 )
 bc_hdr = {"BCOV-POLICY": BCOV_POLICY}
 
-@bot.on_message(filters.command(["login"]) & filters.user(ADMINS))
+@bot.on_message(filters.command(["login"]) & filters.edited)
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("Send **ID & Password** in this manner otherwise bot will not respond.\n\nSend like this:-  **ID*Password**")
     url = "https://elearn.crwilladmin.com/api/v1/login-other"
