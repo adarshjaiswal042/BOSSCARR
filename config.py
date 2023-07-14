@@ -1,6 +1,6 @@
-api_id = 15252966
+api_id = 8130624
 
-api_hash = "89822193d394af2f140022f7edbac6f7"
+api_hash = "67a71560b00a31ffa692c67428f06d38"
 
-bot_token "5386670407:AAHb7LM1B7RhM1NjUc2iYxTVPCrV4BXXdwU"
+bot_token "6265926517:AAFA3vF-F_zhTQRh1dyF-WMbj6quQsQ-xFc"
 
