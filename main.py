@@ -26,12 +26,10 @@ from bs4 import BeautifulSoup
 load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
 
-bot = Client(
-    
-    bot_token=os.environ.get("6265926517:AAFA3vF-F_zhTQRh1dyF-WMbj6quQsQ-xFc"),
-    api_id=int(os.environ.get("8130624")),
-    api_hash=os.environ.get("67a71560b00a31ffa692c67428f06d38")
-)
+bot = Client("bot",
+             bot_token= "6265926517:AAFA3vF-F_zhTQRh1dyF-WMbj6quQsQ-xFc",
+             api_id= 8130624,
+             api_hash= "67a71560b00a31ffa692c67428f06d38")
 
 logger = logging.getLogger()
 # thumb = os.environ.get("THUMB")
